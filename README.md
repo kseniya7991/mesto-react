@@ -1,5 +1,8 @@
 # Проект 10: Место
 
+#### Задача учебного проекта: развернуть проект [Mesto](https://github.com/kseniya7991/mesto) при помощи CRA
+---------
+
 ### Обзор
 * Интро
 * Технологии
@@ -15,7 +18,6 @@
 
 Размещение макета в Фигме: 
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1) 
-* [Ссылка на проект в GitHub](https://kseniya7991.github.io/mesto-react/)
 
 **Технологии**
 
@@ -41,7 +43,10 @@
 17. Получение и отправление даннных через API
 18. Использование Create React App
 
-
+**Стек:**
+1. CSS
+2. React.js
+3. GitBash
 
 **Планы**
 
@@ -51,3 +56,10 @@
 4. Реализовать возможность добавления детальных описаний в фотографии
 5. Порабоать над UX сайта
 6. Добавить валидацию форм через React
+
+### Как развернуть проект локально
+
+1. Для проекта необходимо установить [webpack](https://webpack.js.org/guides/installation/) и [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)
+2. `npm run build` собираем проект
+3. `npm run dev` запускаем проект на сервере **http://localhost:3000/**
+

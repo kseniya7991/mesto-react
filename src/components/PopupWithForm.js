@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import keyClose from '../utils/constants';
 
-function PopupWithForm({ title, name, children, isOpen, onClose, buttonValue, onSubmit }) {
+function PopupWithForm({ title, name, children, isOpen, onClose, buttonValue, onSubmit , isEmpty}) {
 
     function handleOverlayClick(e) {
         if (e.target.classList.contains('popup_opened')) {
@@ -20,6 +20,7 @@ function PopupWithForm({ title, name, children, isOpen, onClose, buttonValue, on
         return () => document.removeEventListener('keydown', handleEscClick);
     }, [isOpen, onClose]);
 
+    
 
 
     return (
